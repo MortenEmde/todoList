@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&display=swap');
+body {
+  background-color: #ADDFFF;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px auto;
+  max-width: 90%;
+}
+
+header {
+  background-color: #F7F7D1;
+  border: 1px solid black;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+textarea{
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 5px;
+  resize: none;
+  width: 70%;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2, p {
+  border-bottom: 1px dashed black;
+  margin: 0;
+  padding: 0 8px;
+}
+
+button {
+  background: linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+  background-color: #637aad;
+  border: 1px solid #314179;
+  border-radius: 3px;
+  box-shadow: inset 0px 1px 0px 0px #7a8eb9;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+  background-color: #5972a7;
+}
+
+.taskList {
+  background-color:  #F7F7D1;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.4em;
+  min-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.done {
+  background-color: #38C438;
+  order: 1;
+  text-decoration: line-through;
+}
+
+.removeBtn {
+  margin-left: 82%;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.addBtn {
+  margin-bottom: 26px;
+}
